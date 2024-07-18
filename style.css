@@ -832,8 +832,7 @@ nav{
     align-items:start;
     justify-content:start;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 3vw;
+    gap: 2vw;
 }
 .head h1{
     font-size:2vw;
@@ -841,7 +840,7 @@ nav{
 }
 #tail{
     display: flex;
-    align-items: center;
+    align-items:flex-start  ;
     justify-content: flex-start;
     gap: 0.5vw;
     flex-direction: column;
