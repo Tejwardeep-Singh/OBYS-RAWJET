@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>OBYS BY RAWJET</title>
+</head>
+<body>
+    <div id="mouse"></div>
+    <div id="loader">
+        <div class="line">
+            <div id="loader-counter">
+                <h5>00</h5>
+                <h6>-</h6>
+                <h6>100</h6>
+            </div>
+            <h1>YOUR WEB</h1>
+        </div>
+        <div class="line">
+            <h1>EXPERIENCE</h1>
+        </div>
+        <div class="line">
+            <h1>IS LOADING RIGHT</h1>
+            <div id="loader-now">
+                <h4>NOW</h4>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div id="page1"> 
+            <nav>
+                <div class="nav-l">
+                    <div id="icon"><svg class="menu-opener__square" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <rect y="10" width="2" height="2" fill="currentColor"></rect>
+                        <rect y="5" width="2" height="2" fill="currentColor"></rect>
+                        <rect width="2" height="2" fill="currentColor"></rect>
+                        <rect x="5" y="10" width="2" height="2" fill="currentColor"></rect>
+                        <rect x="5" y="5" width="2" height="2" fill="currentColor"></rect>
+                        <rect x="5" width="2" height="2" fill="currentColor"></rect>
+                        <rect x="10" y="10" width="2" height="2" fill="currentColor"></rect>
+                        <rect x="10" y="5" width="2" height="2" fill="currentColor"></rect>
+                        <rect x="10" width="2" height="2" fill="currentColor"></rect>
+                      </svg></div>
+                    <div id="logo"><svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
+                        <path d="M40.7622 24.5917C40.7622 23.6724 41.4511 22.9829 42.3697 22.9829C43.2883 22.9829 43.9773 23.6724 43.9773 24.5917C43.9773 25.511 43.2883 26.2005 42.3697 26.2005C41.566 26.2005 40.7622 25.3961 40.7622 24.5917Z" fill="currentColor"></path>
+                        <path d="M65.7937 8.96329C65.7937 8.04398 66.4826 7.35449 67.4012 7.35449C68.3198 7.35449 69.0087 8.04398 69.0087 8.96329C69.0087 9.88261 68.3198 10.5721 67.4012 10.5721C66.4826 10.5721 65.7937 9.88261 65.7937 8.96329Z" fill="currentColor"></path>
+                        <path d="M59.019 18.3861C59.019 17.4668 59.708 16.7773 60.6266 16.7773C61.5451 16.7773 62.2341 17.4668 62.2341 18.3861C62.2341 19.3055 61.5451 19.9949 60.6266 19.9949C59.8228 19.9949 59.019 19.3055 59.019 18.3861Z" fill="currentColor"></path>
+                        <path d="M41.3365 9.88276C40.5327 8.27396 39.6142 7.8143 39.04 7.58447H46.3887C45.9294 7.8143 45.0108 8.04413 45.0108 8.96344C45.0108 9.19327 45.1257 9.65293 45.3553 10.1126L48.3407 16.6627L46.5035 20.225L41.3365 9.88276Z" fill="currentColor"></path>
+                        <path d="M51.8998 9.30819C51.8998 8.04413 50.9812 7.69939 50.2922 7.58447H54.6555C53.8517 7.8143 52.8183 8.27396 51.7849 10.1126C51.8998 9.88276 51.8998 9.65293 51.8998 9.30819Z" fill="currentColor"></path>
+                        <path d="M66.7122 17.9266C66.7122 16.2029 65.2195 15.6283 63.0378 14.5941C60.8562 13.5599 59.019 12.7555 59.019 10.8019C59.019 8.73348 60.971 7.12468 64.1861 7.00977C63.1527 7.23959 62.3489 8.15891 62.3489 9.42296C62.3489 10.9168 63.612 11.4914 65.9084 12.5256C68.2049 13.5599 70.2717 14.4792 70.2717 16.6626C70.2717 19.1907 67.4011 20.3398 64.6454 20.4547C65.9084 20.2249 66.7122 19.1907 66.7122 17.9266Z" fill="currentColor"></path>
+                        <path d="M21.0129 2.64303C21.0129 1.6088 20.3239 0.919313 19.2905 0.689485L24.4576 0V20.3398C24.4576 20.3398 22.6204 20.4547 20.8981 21.8337V2.64303H21.0129Z" fill="currentColor"></path>
+                        <path d="M34.6764 14.0195C34.6764 10.4572 31.691 7.58432 27.9019 7.35449C30.1983 7.69923 30.8873 11.4914 30.8873 14.0195C30.8873 16.5476 30.1983 20.2249 27.9019 20.6845C31.8058 20.4547 34.6764 17.5819 34.6764 14.0195Z" fill="currentColor"></path>
+                        <path d="M14.9269 14.0195C14.9269 10.4572 11.9415 7.58432 8.15234 7.35449C10.4488 7.69923 11.1377 11.4914 11.1377 14.0195C11.1377 16.5476 10.4488 20.2249 8.15234 20.6845C11.9415 20.4547 14.9269 17.5819 14.9269 14.0195Z" fill="currentColor"></path>
+                        <path d="M0 14.0195C0 10.4572 2.9854 7.58432 6.77456 7.35449C4.4781 7.69923 3.78916 11.4914 3.78916 14.0195C3.78916 16.5476 4.4781 20.2249 6.77456 20.6845C2.9854 20.4547 0 17.5819 0 14.0195Z" fill="currentColor"></path></svg></div>
+                </div>
+                <div class="nav-r">
+                    <h1>WORK</h1>
+                    <h1>ABOUT</h1>
+                    <h1>CONTACTS</h1>
+                </div>
+            </nav>
+            <div id="pg1-container">
+                <div class="pg1-text" id="pg1-number"><h1>WE DESIGN</h1></div>
+                <div class="pg1-text"><h1>UNIQUE</h1></div>
+                <div class="pg1-text" id="pg1-2">
+                    <h1><span>WEB</span>/<span>GRAPHICS</span></h1>
+                </div>
+                <div class="pg1-text"><h1>EXPERIENCE</h1></div>
+                <img src="https://obys.agency/wp-content/uploads/2022/03/Flag.jpg" alt="" id="flag">
+            </div>
+        </div>
+        <div id="page2">
+            <div id="pg2-container">
+                <video src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4"loop></video></video>
+                <div id="pointer"><i class="ri-play-large-fill"></i></div>
+            </div>
+        </div>
+        <div id="page3">
+            <div id="pg3-text">
+                <h1>OUR PROJECTS</h1>
+                <div class="ruler-div">
+                    <div id="ruler" class="ruler-pg3"></div>
+                </div>
+            </div>
+            <div id="pg3-container">
+                <div class="pg3-element">
+                    <div class="pg3-text">
+                        <h2>OLGA PRUDKA</h2>
+                    </div>
+                    <div class="pg3-image">
+                        <img src="images/img1.webp" alt="">
+                        <img src="images/img2.webp" alt="" id="pg3-img2">
+                    </div>
+                    <div class="pg3-p">
+                        <h2>Logo design, Website design, Development</h2>
+                        <h2 id="pg3-align">2023</h2>
+                    </div>
+                    <div class="pg3-ruler"></div>
+                </div>
+                <div class="pg3-element2">
+                    <div class="pg3-text">
+                        <h2>AIM</h2>
+                    </div>
+                    <div class="pg3-image">
+                        <img src="images/img4.webp" alt="">
+                        <img src="images/img3.webp" alt="" id="pg3-img2">
+                    </div>
+                    <div class="pg3-p">
+                        <h2>Logo design, Website design, Development</h2>
+                        <h2 id="pg3-align">2024</h2>
+                    </div>
+                    <div class="pg3-ruler"></div>
+                </div>  
+                <div class="pg3-element3">
+                    <div class="circle-container" id="circle-container">
+                        <div class="circle1"><h4>We are thrilled to have you on board. We hope you enjjoy the projects🔥 .</h4></div>
+                        <div class="circle2"><svg class="entry-title__arrow" viewBox="0 0 118 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M57.295 75.1963L56.5879 74.4892L55.8808 75.1963L56.5879 75.9034L57.295 75.1963ZM77.0457 55.4457L77.7528 56.1528L79.4599 54.4457L77.0457 54.4457L77.0457 55.4457ZM72.3742 90.2755L71.6671 90.9826L72.3742 91.6897L73.0813 90.9826L72.3742 90.2755ZM117.513 45.1371L118.22 45.8442L118.927 45.1371L118.22 44.4299L117.513 45.1371ZM102.433 30.0578L103.141 29.3507L102.433 28.6431L101.726 29.3512L102.433 30.0578ZM102.433 30.0585L101.726 30.7656L102.433 31.4732L103.14 30.7651L102.433 30.0585ZM72.3743 9.86531e-07L73.0814 -0.707106L72.3743 -1.41421L71.6672 -0.707106L72.3743 9.86531e-07ZM57.2951 15.0792L56.588 14.3721L55.8809 15.0792L56.588 15.7863L57.2951 15.0792ZM76.3363 34.1205L76.3363 35.1205L78.7506 35.1205L77.0434 33.4134L76.3363 34.1205ZM-4.50306e-05 34.1205L-4.50525e-05 33.1205L-1.00005 33.1205L-1.00005 34.1205L-4.50306e-05 34.1205ZM-4.45646e-05 55.4457L-1.00004 55.4457L-1.00004 56.4457L-4.45427e-05 56.4457L-4.45646e-05 55.4457ZM58.0021 75.9034L77.7528 56.1528L76.3385 54.7386L56.5879 74.4892L58.0021 75.9034ZM73.0813 89.5684L58.0021 74.4892L56.5879 75.9034L71.6671 90.9826L73.0813 89.5684ZM116.806 44.4299L71.6671 89.5684L73.0813 90.9826L118.22 45.8442L116.806 44.4299ZM101.726 30.765L116.806 45.8442L118.22 44.4299L103.141 29.3507L101.726 30.765ZM103.14 30.7651L103.141 30.7645L101.726 29.3512L101.725 29.3519L103.14 30.7651ZM103.14 29.3514L73.0814 -0.707106L71.6672 0.707108L101.726 30.7656L103.14 29.3514ZM71.6672 -0.707106L56.588 14.3721L58.0022 15.7863L73.0814 0.707108L71.6672 -0.707106ZM56.588 15.7863L75.6292 34.8276L77.0434 33.4134L58.0022 14.3721L56.588 15.7863ZM76.3363 33.1205L-4.50525e-05 33.1205L-4.50088e-05 35.1205L76.3363 35.1205L76.3363 33.1205ZM-1.00005 34.1205L-1.00004 55.4457L0.999955 55.4457L0.999955 34.1205L-1.00005 34.1205ZM-4.45427e-05 56.4457L77.0457 56.4457L77.0457 54.4457L-4.45864e-05 54.4457L-4.45427e-05 56.4457Z" fill="currentColor"></path></svg></div>
+                    </div>
+                </div>
+                <div class="pg3-element3" id="elem3">
+                    <div class="circle-container2" id="circle-container2">
+                        <div class="circle1"><h4>It will make you wow😉!</h4></div>
+                        <div class="circle2" id="rotate45"><svg class="entry-title__arrow" viewBox="0 0 118 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M57.295 75.1963L56.5879 74.4892L55.8808 75.1963L56.5879 75.9034L57.295 75.1963ZM77.0457 55.4457L77.7528 56.1528L79.4599 54.4457L77.0457 54.4457L77.0457 55.4457ZM72.3742 90.2755L71.6671 90.9826L72.3742 91.6897L73.0813 90.9826L72.3742 90.2755ZM117.513 45.1371L118.22 45.8442L118.927 45.1371L118.22 44.4299L117.513 45.1371ZM102.433 30.0578L103.141 29.3507L102.433 28.6431L101.726 29.3512L102.433 30.0578ZM102.433 30.0585L101.726 30.7656L102.433 31.4732L103.14 30.7651L102.433 30.0585ZM72.3743 9.86531e-07L73.0814 -0.707106L72.3743 -1.41421L71.6672 -0.707106L72.3743 9.86531e-07ZM57.2951 15.0792L56.588 14.3721L55.8809 15.0792L56.588 15.7863L57.2951 15.0792ZM76.3363 34.1205L76.3363 35.1205L78.7506 35.1205L77.0434 33.4134L76.3363 34.1205ZM-4.50306e-05 34.1205L-4.50525e-05 33.1205L-1.00005 33.1205L-1.00005 34.1205L-4.50306e-05 34.1205ZM-4.45646e-05 55.4457L-1.00004 55.4457L-1.00004 56.4457L-4.45427e-05 56.4457L-4.45646e-05 55.4457ZM58.0021 75.9034L77.7528 56.1528L76.3385 54.7386L56.5879 74.4892L58.0021 75.9034ZM73.0813 89.5684L58.0021 74.4892L56.5879 75.9034L71.6671 90.9826L73.0813 89.5684ZM116.806 44.4299L71.6671 89.5684L73.0813 90.9826L118.22 45.8442L116.806 44.4299ZM101.726 30.765L116.806 45.8442L118.22 44.4299L103.141 29.3507L101.726 30.765ZM103.14 30.7651L103.141 30.7645L101.726 29.3512L101.725 29.3519L103.14 30.7651ZM103.14 29.3514L73.0814 -0.707106L71.6672 0.707108L101.726 30.7656L103.14 29.3514ZM71.6672 -0.707106L56.588 14.3721L58.0022 15.7863L73.0814 0.707108L71.6672 -0.707106ZM56.588 15.7863L75.6292 34.8276L77.0434 33.4134L58.0022 14.3721L56.588 15.7863ZM76.3363 33.1205L-4.50525e-05 33.1205L-4.50088e-05 35.1205L76.3363 35.1205L76.3363 33.1205ZM-1.00005 34.1205L-1.00004 55.4457L0.999955 55.4457L0.999955 34.1205L-1.00005 34.1205ZM-4.45427e-05 56.4457L77.0457 56.4457L77.0457 54.4457L-4.45864e-05 54.4457L-4.45427e-05 56.4457Z" fill="currentColor"></path></svg></div>
+                    </div>
+                </div>
+                <div class="pg3-element4">
+                    <div id="elem4">
+                        <div class="pg3-text">
+                            <h2>ROOM</h2>
+                        </div>
+                        <div class="pg3-image">
+                            <img src="images/img5.webp" alt="">
+                            <img src="images/img6.webp" alt="" id="pg3-img2">
+                        </div>
+                        <div class="pg3-p">
+                            <h2>Website design, Development</h2>
+                            <h2 id="pg3-align">2024</h2>
+                        </div>
+                        <div class="pg3-ruler"></div>
+                    </div>
+                </div>
+                <div class="pg3-element5">
+                    <div class="pg3-text">
+                        <h2>MODEL</h2>
+                    </div>
+                    <div class="pg3-image">
+                        <img src="images/img7.webp" alt="">
+                        <img src="images/img8.webp" alt="" id="pg3-img2">
+                    </div>
+                    <div class="pg3-p">
+                        <h2>Website design, Development</h2>
+                        <h2 id="pg3-align">2024</h2>
+                    </div>
+                    <div class="pg3-ruler"></div>
+                </div>
+                <div class="pg3-element6">
+                    <div id="elem4">
+                        <div class="pg3-text">
+                            <h2>BLEND</h2>
+                        </div>
+                        <div class="pg3-image">
+                            <img src="images/img9.webp" alt="">
+                            <img src="images/img10.webp" alt="" id="pg3-img2">
+                        </div>
+                        <div class="pg3-p">
+                            <h2>Website design, Development</h2>
+                            <h2 id="pg3-align">2024</h2>
+                        </div>
+                        <div class="pg3-ruler"></div>
+                    </div>
+                </div>
+                <div class="pg3-element3" id="pg3-element3">
+                    <div id="elem6">
+                        <div class="circle-container3" id="circle-container2">
+                            <div class="circle1"><h4>We like it's colour pallete🎨</h4></div>
+                            <div class="circle2" id="elem5"><svg class="entry-title__arrow" viewBox="0 0 118 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M57.295 75.1963L56.5879 74.4892L55.8808 75.1963L56.5879 75.9034L57.295 75.1963ZM77.0457 55.4457L77.7528 56.1528L79.4599 54.4457L77.0457 54.4457L77.0457 55.4457ZM72.3742 90.2755L71.6671 90.9826L72.3742 91.6897L73.0813 90.9826L72.3742 90.2755ZM117.513 45.1371L118.22 45.8442L118.927 45.1371L118.22 44.4299L117.513 45.1371ZM102.433 30.0578L103.141 29.3507L102.433 28.6431L101.726 29.3512L102.433 30.0578ZM102.433 30.0585L101.726 30.7656L102.433 31.4732L103.14 30.7651L102.433 30.0585ZM72.3743 9.86531e-07L73.0814 -0.707106L72.3743 -1.41421L71.6672 -0.707106L72.3743 9.86531e-07ZM57.2951 15.0792L56.588 14.3721L55.8809 15.0792L56.588 15.7863L57.2951 15.0792ZM76.3363 34.1205L76.3363 35.1205L78.7506 35.1205L77.0434 33.4134L76.3363 34.1205ZM-4.50306e-05 34.1205L-4.50525e-05 33.1205L-1.00005 33.1205L-1.00005 34.1205L-4.50306e-05 34.1205ZM-4.45646e-05 55.4457L-1.00004 55.4457L-1.00004 56.4457L-4.45427e-05 56.4457L-4.45646e-05 55.4457ZM58.0021 75.9034L77.7528 56.1528L76.3385 54.7386L56.5879 74.4892L58.0021 75.9034ZM73.0813 89.5684L58.0021 74.4892L56.5879 75.9034L71.6671 90.9826L73.0813 89.5684ZM116.806 44.4299L71.6671 89.5684L73.0813 90.9826L118.22 45.8442L116.806 44.4299ZM101.726 30.765L116.806 45.8442L118.22 44.4299L103.141 29.3507L101.726 30.765ZM103.14 30.7651L103.141 30.7645L101.726 29.3512L101.725 29.3519L103.14 30.7651ZM103.14 29.3514L73.0814 -0.707106L71.6672 0.707108L101.726 30.7656L103.14 29.3514ZM71.6672 -0.707106L56.588 14.3721L58.0022 15.7863L73.0814 0.707108L71.6672 -0.707106ZM56.588 15.7863L75.6292 34.8276L77.0434 33.4134L58.0022 14.3721L56.588 15.7863ZM76.3363 33.1205L-4.50525e-05 33.1205L-4.50088e-05 35.1205L76.3363 35.1205L76.3363 33.1205ZM-1.00005 34.1205L-1.00004 55.4457L0.999955 55.4457L0.999955 34.1205L-1.00005 34.1205ZM-4.45427e-05 56.4457L77.0457 56.4457L77.0457 54.4457L-4.45864e-05 54.4457L-4.45427e-05 56.4457Z" fill="currentColor"></path></svg></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pg3-element7">
+                    <div id="elem6">
+                        <div class="pg3-text">
+                            <h2>STADIUMS</h2>
+                        </div>
+                        <div class="pg3-image">
+                            <img src="images/img11.webp" alt="">
+                            <img src="images/img12.webp" alt="" id="pg3-img2">
+                        </div>
+                        <div class="pg3-p">
+                            <h2>Website design, Development</h2>
+                            <h2 id="pg3-align">2024</h2>
+                        </div>
+                        <div class="pg3-ruler"></div>
+                    </div>
+                </div>
+                <div class="pg3-element8">
+                    <div class="circle-container5" id="circle-container5">
+                        <div class="circle3"><h4>ALL PROJECTS (18)</h4></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="pg4-text">
+                <h1>ABOUT OBYS</h1>
+                <div class="ruler-div">
+                    <div id="ruler" class="ruler1-pg4"></div>
+                </div>
+            </div>
+            <div id="pg4-container">
+                <p id="pg4-container-p">Our
+                    agency
+                    is
+                    about
+                    people
+                    who
+                     
+                    love
+                    creating,
+                    designing
+                    and
+                     
+                    developing
+                    wow
+                    projects.
+                    In
+                    the
+                     
+                    same
+                    time
+                    we
+                    are
+                    a
+                    boutique
+                     
+                    agency
+                    that
+                    is
+                    more
+                    than
+                    the
+                     
+                    collective.
+                    We
+                    learn
+                    and
+                    grow,
+                    win
+                     
+                    and
+                    celebrate
+                    together.
+                    
+                    </p>
+                <div id="pg4-div">
+                    <img src="https://obys.agency/wp-content/uploads/2020/07/content-image01.jpg" alt="">
+                    <div id="pg4-p">
+                        <p>We are happy to present our new website and updated version of Obys agency. As before we are open for new projects worldwide!</p>
+                        <p>Would you like to have award winning site or unique branding style, please say hi to our manager —info@obys.agency.
+                            And we will help you with the pleasure.</p>
+                    </div>
+                </div>
+                <div id="pg4-container2">
+                    <div class="elem">
+                        <h2>Awwwards x16</h2>
+                        <h3>SOTM, SOTD and Honrable Mentions</h3>
+                    </div>
+                    <div class="elem">
+                        <h2>Red Dot Award x1</h2>
+                        <h3>Best of the Best </h3>
+                    </div>
+                    <div class="elem">
+                        <h2>FWA x11</h2>
+                        <h3>FWA of The Day</h3>
+                    </div>
+                    <div class="elem">
+                        <h2>CSSDA x23</h2>
+                        <h3>WOTM, WOTD and UI, UX, Innovation</h3>
+                    </div>
+                    <div class="elem">
+                        <h2>Behance x25</h2>
+                        <h3>Interaction, Graphic Design</h3>
+                    </div>
+                </div>
+                <div class="ruler-div">
+                    <div id="ruler" class="ruler-pg4"></div>
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <div id="pg5-container">
+                <div class="pg5-1">
+                    <div id="pg5-1-queue">
+                        <h1>TECHNOLOGY</h1>
+                        <div id="sep"></div>
+                        <h1>FASHION</h1>
+                        <div id="sep"></div>
+                        <h1>SPORT</h1>
+                        <div id="sep"></div>
+                        <h1>TECHNOLOGY</h1>
+                        <div id="sep"></div>
+                        <h1>FASHION</h1>
+                        <div id="sep"></div>
+                        <h1>SPORT</h1>
+                        <div id="sep"></div>
+                        <h1>TECHNOLOGY</h1>
+                        <div id="sep"></div>
+                        <h1>FASHION</h1>
+                        <div id="sep"></div>
+                        <h1>SPORT</h1>
+                        <div id="sep"></div>
+                    </div>
+                </div>
+                <div class="pg5-1">
+                    <div id="pg5-2-queue">
+                        <h1>REAL</h1>
+                        <h1>ESTATE</h1>
+                        <div id="sep"></div>
+                        <h1>ARCHITECTURE</h1>
+                        <div id="sep"></div>
+                        <h1>BEAUTY</h1>
+                        <div id="sep"></div>
+                        <h1>REAL</h1>
+                        <h1>ESTATE</h1>
+                        <div id="sep"></div>
+                        <h1>ARCHITECTURE</h1>
+                        <div id="sep"></div>
+                        <h1>BEAUTY</h1>
+                        <div id="sep"></div>
+                        <h1>REAL</h1>
+                        <h1>ESTATE</h1>
+                        <div id="sep"></div>
+                        <h1>ARCHITECTURE</h1>
+                        <div id="sep"></div>
+                        <h1>BEAUTY</h1>
+                        <div id="sep"></div>
+                    </div>     
+                </div>
+                <div class="pg5-1">
+                    <div id="pg5-3-queue">
+                        <h1>TRAVEL</h1>
+                        <div id="sep"></div>
+                        <h1>SCIENCE</h1>
+                        <div id="sep"></div>
+                        <h1>PARTNERS</h1>
+                        <div id="sep"></div>
+                        <h1>TRAVEL</h1>
+                        <div id="sep"></div>
+                        <h1>SCIENCE</h1>
+                        <div id="sep"></div>
+                        <h1>PARTNERS</h1>
+                        <div id="sep"></div>
+                        <h1>TRAVEL</h1>
+                        <div id="sep"></div>
+                        <h1>SCIENCE</h1>
+                        <div id="sep"></div>
+                        <h1>PARTNERS</h1>
+                        <div id="sep"></div>
+                    </div>    
+                </div>
+                <div class="pg5-1">
+                    <div id="pg5-4-queue">
+                        <h1>MUSIC</h1>
+                        <div id="sep"></div>
+                        <h1>AUTOMOTIVE</h1>
+                        <div id="sep"></div>
+                        <h1>HOTELS</h1>
+                        <div id="sep"></div>
+                        <h1>MUSIC</h1>
+                        <div id="sep"></div>
+                        <h1>AUTOMOTIVE</h1>
+                        <div id="sep"></div>
+                        <h1>HOTELS</h1>
+                        <div id="sep"></div>
+                        <h1>MUSIC</h1>
+                        <div id="sep"></div>
+                        <h1>AUTOMOTIVE</h1>
+                        <div id="sep"></div>
+                        <h1>HOTELS</h1>
+                        <div id="sep"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page6">
+            <div id="pg6-container">
+                <div id="pg6-text">
+                    <h1 id="text-pg6">LET'S CREATE</h1>
+                    <svg class="entry-title__arrow" viewBox="0 0 118 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M57.295 75.1963L56.5879 74.4892L55.8808 75.1963L56.5879 75.9034L57.295 75.1963ZM77.0457 55.4457L77.7528 56.1528L79.4599 54.4457L77.0457 54.4457L77.0457 55.4457ZM72.3742 90.2755L71.6671 90.9826L72.3742 91.6897L73.0813 90.9826L72.3742 90.2755ZM117.513 45.1371L118.22 45.8442L118.927 45.1371L118.22 44.4299L117.513 45.1371ZM102.433 30.0578L103.141 29.3507L102.433 28.6431L101.726 29.3512L102.433 30.0578ZM102.433 30.0585L101.726 30.7656L102.433 31.4732L103.14 30.7651L102.433 30.0585ZM72.3743 9.86531e-07L73.0814 -0.707106L72.3743 -1.41421L71.6672 -0.707106L72.3743 9.86531e-07ZM57.2951 15.0792L56.588 14.3721L55.8809 15.0792L56.588 15.7863L57.2951 15.0792ZM76.3363 34.1205L76.3363 35.1205L78.7506 35.1205L77.0434 33.4134L76.3363 34.1205ZM-4.50306e-05 34.1205L-4.50525e-05 33.1205L-1.00005 33.1205L-1.00005 34.1205L-4.50306e-05 34.1205ZM-4.45646e-05 55.4457L-1.00004 55.4457L-1.00004 56.4457L-4.45427e-05 56.4457L-4.45646e-05 55.4457ZM58.0021 75.9034L77.7528 56.1528L76.3385 54.7386L56.5879 74.4892L58.0021 75.9034ZM73.0813 89.5684L58.0021 74.4892L56.5879 75.9034L71.6671 90.9826L73.0813 89.5684ZM116.806 44.4299L71.6671 89.5684L73.0813 90.9826L118.22 45.8442L116.806 44.4299ZM101.726 30.765L116.806 45.8442L118.22 44.4299L103.141 29.3507L101.726 30.765ZM103.14 30.7651L103.141 30.7645L101.726 29.3512L101.725 29.3519L103.14 30.7651ZM103.14 29.3514L73.0814 -0.707106L71.6672 0.707108L101.726 30.7656L103.14 29.3514ZM71.6672 -0.707106L56.588 14.3721L58.0022 15.7863L73.0814 0.707108L71.6672 -0.707106ZM56.588 15.7863L75.6292 34.8276L77.0434 33.4134L58.0022 14.3721L56.588 15.7863ZM76.3363 33.1205L-4.50525e-05 33.1205L-4.50088e-05 35.1205L76.3363 35.1205L76.3363 33.1205ZM-1.00005 34.1205L-1.00004 55.4457L0.999955 55.4457L0.999955 34.1205L-1.00005 34.1205ZM-4.45427e-05 56.4457L77.0457 56.4457L77.0457 54.4457L-4.45864e-05 54.4457L-4.45427e-05 56.4457Z" fill="currentColor"></path></svg>
+                </div>
+                <div id="ruler" class="ruler1-pg6"></div>
+                <div id="pg6-box">
+                    <div class="box1">
+                        <div class="head"><h1>Socials</h1></div>
+                        <div id="tail">
+                            <h2>Dribbble</h2>
+                            <h2>Behance</h2>
+                            <h2>Instagram</h2>
+                            <h2>Facebook</h2>
+                            <h2>Twitter</h2>
+                            <h2>Youtube</h2>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="head"><h1>Address</h1></div>
+                        <div id="tail">
+                            <h2>Zamarstynivska 55
+                                79019 Lviv
+                                Ukraine</h2>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="head"><h1>Say Hi</h1></div>
+                        <div id="tail">
+                            <h2>info@obys.agency</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="ruler" class="ruler-pg6"></div>
+                <div id="pg6-copyright"><h2>@2024 <span>TEJWARDEEP SINGH</span>. All Rights Reserved</h2></div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
